@@ -12,7 +12,15 @@ gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
+gem 'simple_form'
+gem 'jquery-rails','~> 4.3.3'
+gem 'public_activity' , '~> 1.5'
+gem 'gravatar_image_tag' , '~> 1.2'
+gem "wysiwyg-rails"
+gem 'devise'
 gem 'uglifier', '>= 1.3.0'
+gem 'bulma-rails' , '~> 0.6.1'
+
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker'
 # See https://github.com/rails/execjs#readme for more supported runtimes
