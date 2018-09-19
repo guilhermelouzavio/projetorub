@@ -17,9 +17,10 @@ gem 'jquery-rails','~> 4.3.3'
 gem 'public_activity' , '~> 1.5'
 gem 'gravatar_image_tag' , '~> 1.2'
 gem "wysiwyg-rails"
-gem 'devise'
+gem 'devise' , '~>4.4'
 gem 'uglifier', '>= 1.3.0'
 gem 'bulma-rails' , '~> 0.6.1'
+gem 'pg'
 
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker'
