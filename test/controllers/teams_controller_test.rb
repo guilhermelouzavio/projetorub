@@ -15,15 +15,15 @@ class TeamsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should create team" do
+  test "should create teams" do
     assert_difference('Team.count') do
-      post teams_url, params: { team: { name: @team.name } }
+      post teams_url, params: {teams: {name: @team.name } }
     end
 
     assert_redirected_to team_url(Team.last)
   end
 
-  test "should show team" do
+  test "should show teams" do
     get team_url(@team)
     assert_response :success
   end
@@ -33,12 +33,12 @@ class TeamsControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
   end
 
-  test "should update team" do
-    patch team_url(@team), params: { team: { name: @team.name } }
+  test "should update teams" do
+    patch team_url(@team), params: {teams: {name: @team.name } }
     assert_redirected_to team_url(@team)
   end
 
-  test "should destroy team" do
+  test "should destroy teams" do
     assert_difference('Team.count', -1) do
       delete team_url(@team)
     end
