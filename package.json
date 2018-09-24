@@ -10,9 +10,9 @@
     "vue-template-compiler": "^2.5.17",
     "vue-turbolinks": "^2.0.3"
   },
-  "devDependencies": {
-    "webpack-dev-server": "^2.11.3"
-  },
+  //"devDependencies": {
+  //  "webpack-dev-server": "^2.11.3"
+  //},
   "scripts": {
     "start:dev": "webpack-dev-server"
   }
