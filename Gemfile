@@ -23,7 +23,7 @@ gem 'bulma-rails' , '~> 0.6.1'
 gem 'pg'
 gem 'figaro'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
-gem 'webpacker'
+#gem 'webpacker'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'mini_racer', platforms: :ruby
 
