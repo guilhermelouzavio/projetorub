@@ -58,6 +58,7 @@ group :production do
   gem 'pg'
 end
 
+gem 'rolify', :git => 'git://github.com/EppO/rolify.git'
 
 group :development do
   # Access an interactive console on exception pages or by calling 'console' anywhere in the code.

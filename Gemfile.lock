@@ -1,3 +1,9 @@
+GIT
+  remote: git://github.com/EppO/rolify.git
+  revision: 285c5afc38adc9a37594f523b5e748ea37766562
+  specs:
+    rolify (5.1.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -274,6 +280,7 @@ DEPENDENCIES
   public_activity (~> 1.5)
   puma (~> 3.11)
   rails (~> 5.2.1)
+  rolify!
   sass-rails (~> 5.0)
   selenium-webdriver
   simple_form
@@ -291,4 +298,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   1.16.4
+   1.17.0.pre.1
