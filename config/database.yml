@@ -3,12 +3,14 @@
 #
 #   Ensure the SQLite 3 gem is defined in your Gemfile
 #   gem 'sqlite3'
-#
+#adapter: sqlite3
 
-adapter: postgresql
+rake assets:precompile
+
 
 default: &default
   adapter: postgresql
+
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
   timeout: 5000
 
