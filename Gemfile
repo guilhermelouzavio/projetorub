@@ -21,7 +21,7 @@ gem 'devise' , '~>4.4'
 gem 'uglifier', '>= 1.3.0'
 gem 'bulma-rails' , '~> 0.6.1'
 gem 'pg'
-
+gem 'figaro'
 # Transpile app-like JavaScript. Read more: https://github.com/rails/webpacker
 gem 'webpacker'
 # See https://github.com/rails/execjs#readme for more supported runtimes
